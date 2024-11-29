@@ -1,16 +1,47 @@
 {
-"myLinks": [
-    {
-    "name": "GitHub",
-    "url": "https://github.com/username"
-    },
-    {
-    "name": "CodePen",
-    "url": "https://codepen.io/username"
-    },
-    {
-    "name": "LinkedIn",
-    "url": "https://www.linkedin.com"
-    }
+    "myLinks": [
+      {
+        "url": "https://github.com/Oscar-Ruelas",
+        "name": "My Github Profile",
+        "icon": "github icon.png"
+      },
+      {
+        "url": "https://codepen.io/Oscar-Ruelas",
+        "name": "Code Pen",
+        "icon": "codepen-logo.png"
+      },
+      {
+        "url": "https://forbes.com",
+        "name": "Forbes interview",
+        "icon": "interview-icon.svg"
+      },
+      {
+        "url": "https://stocks.com",
+        "name": "Stocks",
+        "icon": "stocks-icon.svg"
+      }
+    ],
+    "socialIcons": [
+      {
+        "url": "https://twitter.com",
+        "icon": "twitter-icon.svg",
+        "alt": "Twitter"
+      },
+      {
+        "url": "https://tiktok.com",
+        "icon": "tiktok-icon.svg",
+        "alt": "TikTok"
+      },
+      {
+        "url": "https://spotify.com",
+        "icon": "spotify-icon.svg",
+        "alt": "Spotify"
+      },
+      {
+        "url": "https://twitch.tv",
+        "icon": "twitch-icon.svg",
+        "alt": "Twitch"
+      }
     ]
-}
+  }
+  

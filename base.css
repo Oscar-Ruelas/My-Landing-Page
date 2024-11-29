@@ -1,49 +1,50 @@
-/* Your baseline styles */
+/* Baseline styles */
 *,
 *:before,
 *:after {
     box-sizing: inherit;
 }
 
-/* Baseline Font Sizes */
 html {
-    font-size: 1rem;
+    font-size: 16px; /* Use 16px as the base for better scalability */
     box-sizing: border-box;
     line-height: 1.5;
 }
 
-/* Responsive Images */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+/* Reset margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #2d4a6c, #5884a4); /* Maintain gradient background */
+    font-family: Arial, sans-serif; /* Ensure a clean and readable font */
+    color: #fff; /* Set default text color to white for contrast */
+    text-rendering: optimizeLegibility; /* Enhance font rendering */
 }
 
 /* Responsive typography */
-p {
-    font-size: 1rem;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px 0; /* Maintain consistent spacing below headings */
+    line-height: 1.2; /* Adjust line-height for better readability */
 }
 
-h1 {
-    font-size: 2rem;
+p, li {
+    margin: 0 0 10px 0; /* Add spacing for paragraphs and list items */
 }
 
-h2 {
-    font-size: 1.5rem;
+/* Reset images for responsiveness */
+img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent inline spacing issues */
 }
 
-h3 {
-    font-size: 1.17rem;
+/* Reset and enhance list styles */
+ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
 }
 
-h4 {
-    font-size: 1rem;
-}
-
-h5 {
-    font-size: 0.83rem;
-}
-
-h6 {
-    font-size: 0.67rem;
+li {
+    margin: 0 0 10px 0; /* Add spacing between list items */
 }
