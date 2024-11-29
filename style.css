@@ -96,3 +96,12 @@ header {
 .link, .social-icons img {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+
+.profile-description {
+  margin: 0 auto; /* Centers the paragraph within the container */
+  max-width: 600px; /* Limits the width of the paragraph for better readability */
+  line-height: 1.6; /* Improves line spacing */
+  font-size: 14px; /* Sets the font size to 12px */
+  font-family: "Times New Roman", Times, serif; /* Sets Times New Roman as the font */
+  text-align: justify; /* Ensures the paragraph is justified for a clean look */
+}

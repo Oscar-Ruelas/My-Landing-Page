@@ -2,7 +2,7 @@
     "myLinks": [
       {
         "url": "https://github.com/Oscar-Ruelas",
-        "name": "My Github Profile",
+        "name": "Github",
         "icon": "github icon.png"
       },
       {
@@ -11,36 +11,17 @@
         "icon": "codepen-logo.png"
       },
       {
-        "url": "https://forbes.com",
-        "name": "Forbes interview",
-        "icon": "interview-icon.svg"
-      },
-      {
-        "url": "https://stocks.com",
-        "name": "Stocks",
-        "icon": "stocks-icon.svg"
+        "url": "https://www.linkedin.com/in/oscar-ruelas-9aaa2a195/",
+        "name": "Linkedin",
+        "icon": "linkedin-icon.png"
       }
     ],
     "socialIcons": [
+
       {
-        "url": "https://twitter.com",
-        "icon": "twitter-icon.svg",
-        "alt": "Twitter"
-      },
-      {
-        "url": "https://tiktok.com",
-        "icon": "tiktok-icon.svg",
-        "alt": "TikTok"
-      },
-      {
-        "url": "https://spotify.com",
-        "icon": "spotify-icon.svg",
-        "alt": "Spotify"
-      },
-      {
-        "url": "https://twitch.tv",
-        "icon": "twitch-icon.svg",
-        "alt": "Twitch"
+        "url": "https://www.youtube.com/watch?v=9xn0OHEZZ8Q",
+        "icon": "Youtube-logo.png",
+        "alt": "YouTube"
       }
     ]
   }
