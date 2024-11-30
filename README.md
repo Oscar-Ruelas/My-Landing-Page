@@ -17,7 +17,7 @@ It is a dynamic and responsive design aimed at providing visitors with an engagi
 - Each link includes:
   - **Icon**: A small image to visually represent the link.
   - **Title**: Describes the resource (e.g., "My Github Profile").
-  - **Action**: Clicking a link opens the resource in a new tab.
+  - **Action**: Clicking a link opens the websites in a new tab.
 
 ### 3. **Social Icons**
 - Includes social media icons dynamically loaded from a JSON file.
