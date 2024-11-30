@@ -36,4 +36,20 @@ document.addEventListener('DOMContentLoaded', async () => {
   } catch (error) {
     console.error('Error loading JSON data:', error);
   }
+
+  // Add functionality to expand the profile picture
+  const profilePicture = document.querySelector('.profile-picture');
+  const overlay = document.createElement('div');
+  overlay.className = 'profile-overlay';
+  document.body.appendChild(overlay);
+
+  profilePicture.addEventListener('click', () => {
+    profilePicture.classList.toggle('expanded');
+    overlay.classList.toggle('active');
+  });
+
+  overlay.addEventListener('click', () => {
+    profilePicture.classList.remove('expanded');
+    overlay.classList.remove('active');
+  });
 });

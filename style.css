@@ -20,6 +20,9 @@ header {
   margin-bottom: 20px;
 }
 
+
+
+/* Profile Picture */
 .profile-picture {
   width: 100px;
   height: 100px;
@@ -27,7 +30,42 @@ header {
   border: 3px solid #fff;
   margin: 0 auto 10px;
   display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; /* Indicate that the image is clickable */
 }
+
+.profile-picture:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Expanded Profile Picture */
+.profile-picture.expanded {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(2.5); /* Center and enlarge the image */
+  z-index: 1000; /* Bring it to the top layer */
+  border-radius: 0; /* Remove circular border */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Stronger shadow for focus */
+}
+
+/* Overlay for Expanded View */
+.profile-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+  z-index: 999; /* Layer below the expanded image */
+  display: none; /* Initially hidden */
+}
+
+.profile-overlay.active {
+  display: block; /* Show overlay when active */
+}
+
 
 .profile-name {
   font-size: 1.5rem;
@@ -101,7 +139,7 @@ header {
   margin: 0 auto; /* Centers the paragraph within the container */
   max-width: 600px; /* Limits the width of the paragraph for better readability */
   line-height: 1.6; /* Improves line spacing */
-  font-size: 14px; /* Sets the font size to 12px */
+  font-size: 16px; 
   font-family: "Times New Roman", Times, serif; /* Sets Times New Roman as the font */
   text-align: justify; /* Ensures the paragraph is justified for a clean look */
 }
