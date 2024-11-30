@@ -31,7 +31,7 @@ It is a dynamic and responsive design aimed at providing visitors with an engagi
 ### **Frontend**
 - **HTML5**: Semantic structure for a clean and maintainable layout.
 - **CSS3**: Custom styling for responsive and visually appealing designs.
-- **JavaScript (Vanilla)**: 
+- **JavaScript**: 
   - Dynamically loads links and social icons using `fetch` from a `data.json` file.
   - Implements functionality for expanding and collapsing the profile picture.
 
